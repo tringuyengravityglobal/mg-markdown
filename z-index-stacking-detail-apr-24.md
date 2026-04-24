@@ -88,6 +88,7 @@
 | # | Selector | Ngữ cảnh | File |
 |---|---|---|---|
 | 1 | `#onetrust-pc-sdk .ot-title-cntr`, `#onetrust-pc-sdk .pc-header` | Cookie preference center header — `position: absolute` | [_cookie-banner.scss:181](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/7-utilities/_cookie-banner.scss#L181) |
+| 2 | `.fcc-toggle-section` | Fund charge calculator toggle panel — `position: fixed` | [_toggle-section.scss:9](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/fund-charge-calculator/components/_toggle-section.scss#L9) |
 
 ---
 
@@ -113,6 +114,7 @@
 |---|---|---|---|
 | 1 | `.article-header:not(&--by-author-only) .article-header__inner` | Article header inner content — `position: relative`, nằm trên background image | [_article-header.scss:120](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/article-header/_article-header.scss#L120) |
 | 2 | `.article-header__social-share .social-share__wrapper` (desktop `breakpoint-up(md)`) | Social share fixed wrapper — `position: fixed; top: header + offset` | [_article-header.scss:225](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/article-header/_article-header.scss#L225) |
+| 3 | `.fcc-field--high-index` | Fund charge calculator field elevated state | [_field.scss:96](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/fund-charge-calculator/components/_field.scss#L96) |
 
 ---
 
@@ -121,6 +123,8 @@
 | # | Selector | Ngữ cảnh | File |
 |---|---|---|---|
 | 1 | `.cmp-breadcrumb` | Breadcrumb — `position: absolute; top: calc(header-height + spacing)` | [_breadcrumb.scss:12](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/breadcrumb/_breadcrumb.scss#L12) |
+| 2 | `.fcc-toggle-section__overlay` | Fund charge calculator backdrop — `position: fixed; inset: 0` | [_toggle-section.scss:89](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/fund-charge-calculator/components/_toggle-section.scss#L89) |
+| 3 | `.navigation--type-fund-page` | Fund page sticky navigation — `position: sticky; top: header-height` | [_navigation-fund-page.scss:13](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/navigation/_navigation-fund-page.scss#L13) |
 
 ---
 
@@ -129,6 +133,7 @@
 | # | Selector | Ngữ cảnh | File |
 |---|---|---|---|
 | 1 | `.social-share__inner` (desktop `breakpoint-up(md)`) | Social share expanded items — `position: absolute; top: 100%` | [_social-share.scss:59](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/social-share/_social-share.scss#L59) |
+| 2 | `.in-page-navigation--top .in-page-nav__sticky-nav.is-sticky` | In-page nav sticky bar — `position: sticky; top: var(--sticky-top-offset)` | [_in-page-navigation-top.scss:135](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/in-page-navigation/_in-page-navigation-top.scss#L135) |
 
 ---
 
@@ -158,6 +163,7 @@
 | 2 | `.header-dropdown__wrapper` | Header dropdown panel — `position: absolute; top: calc(100% + 2px)` | [_top-header-dropdown.scss:94](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/mega-menu/top-header/_top-header-dropdown.scss#L94) |
 | 3 | `.suggestions-container` | Search suggestions dropdown — `position: absolute; top: calc(100% + spacing)` | [_search-box.scss:232](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/search-box/_search-box.scss#L232) |
 | 4 | `.social-share__items--pinned` | Pinned social share icons — `position: sticky; top: calc(...)` | [_social-share.scss:81](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/social-share/_social-share.scss#L81) |
+| 5 | `.fcc-toggle-section__button` | Fund charge calculator toggle button | [_toggle-section.scss:119](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/fund-charge-calculator/components/_toggle-section.scss#L119) |
 
 ---
 
@@ -172,6 +178,9 @@
 | 5 | `.advance-table .advance-sorting-column__dropdown` | Advance table sorting dropdown | [_advance-sorting-column.scss:110](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/table/advance-table/_advance-sorting-column.scss#L110) |
 | 6 | `@include mixins.popup(...)` default `$z-index` parameter | Mixin popup — mặc định sử dụng `overlay-modal`, nhưng có thể override | [_mixins.scss:171](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/2-tools/_mixins.scss#L171) |
 | 7 | `.relatedcontent .relatedcontent__navigation-button--gradient:after` | Related content nav gradient overlay | [_related-content.scss:278](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/related-content/_related-content.scss#L278) |
+| 8 | `.in-page-nav__sticky-nav--moved` | In-page nav moved state — `width: 100%` | [_in-page-navigation-top.scss:263](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/in-page-navigation/_in-page-navigation-top.scss#L263) |
+| 9 | `.fcc-toggle-section__content-arrow` | Fund charge calculator tooltip arrow — `position: absolute` | [_toggle-section.scss:141](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/fund-charge-calculator/components/_toggle-section.scss#L141) |
+| 10 | `.fcc-field__label` | Fund charge calculator field label — `position: absolute` | [_field.scss:26](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/fund-charge-calculator/components/_field.scss#L26) |
 
 ---
 
@@ -188,6 +197,8 @@
 | 7 | `.advance-scroll-bar__wrapper` | Advance table scroll bar wrapper | [_advance-scroll-bar.scss:34](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/table/advance-table/_advance-scroll-bar.scss#L34) |
 | 8 | `.tabs--issue .tablist__dropdown-trigger--expanded .tablist__dropdown-content` | Tabs issue variant expanded dropdown | [_tabs-issue-variants.scss:238](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/tabs/_tabs-issue-variants.scss#L238) |
 | 9 | `.tabs--issue .tablist__dropdown-show` | Tab dropdown visible state | [_tabs-issue-variants.scss:285](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/tabs/_tabs-issue-variants.scss#L285) |
+| 10 | `.slider:before` | Slider full-width overlay — `position: absolute` | [_slider.scss:27](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/slider/_slider.scss#L27) |
+| 11 | `.in-page-nav__sticky-nav.is-sticky` (left variant) | In-page nav left sticky state | [_in-page-navigation.scss:71](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/in-page-navigation/_in-page-navigation.scss#L71) |
 
 ---
 
@@ -199,18 +210,30 @@
 | 2 | `.content-tile__link` | Content tile full-area link overlay | [_content-tile.scss:55](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/content-tile/_content-tile.scss#L55) |
 | 3 | `.root > .aem-Grid > .container` | Root level container — giữ content trên background | [_container.scss:230](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/container/_container.scss#L230) |
 | 4 | `.glossary-filters__dropdown`, `.glossary-filters__search` | Glossary filter controls | [_glossary-filters.scss:109](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/glossary/_glossary-filters.scss#L109), [:115](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/glossary/_glossary-filters.scss#L115) |
-| 5 | `.hero-banner-with-tiles__content` | Hero banner tiles content (nhiều chỗ) | [_hero-banner-with-tiles.scss:90](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/hero-banner-with-tiles/_hero-banner-with-tiles.scss#L90) |
-| 6 | `.icon-tile__content:after` | Icon tile hover overlay | [_icon-tile.scss:88](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/icon-tile/_icon-tile.scss#L88) |
-| 7 | `.relatedcontent .relatedcontent__heading-container` | Related content heading | [_related-content.scss:357](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/related-content/_related-content.scss#L357) |
-| 8 | `.search-results__item--image-thumbnail .search-results__link` | Search result item link overlay | [_search-results-items.scss:122](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/search-results/_search-results-items.scss#L122) |
-| 9 | `.table tbody td` (sticky first column) | Table fixed first column cells | [_table-fixed-first-column.scss:11](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/table/_table-fixed-first-column.scss#L11) |
-| 10 | `.table__scroll-wrapper` (sticky footer) | Table scroll wrapper bottom | [_table-base.scss:85](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/table/_table-base.scss#L85) |
-| 11 | `.advance-table thead tr:not(:first-child) th` | Advance table header rows (non-first) | [_advance-fixed-first-row-column.scss:21](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/table/advance-table/_advance-fixed-first-row-column.scss#L21) |
-| 12 | `.tabs:not(.tabs--issue) .tabs__arrow` | Tab navigation arrows (non-issue variant) | [_tabs.scss:62](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/tabs/_tabs.scss#L62) |
-| 13 | `.tabs--issue .tablist__dropdown-trigger` | Issue tabs dropdown trigger | [_tabs-issue-variants.scss:218](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/tabs/_tabs-issue-variants.scss#L218) |
-| 14 | `.tablist` (tabs) | Tab list container | [_tabs.scss:181](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/tabs/_tabs.scss#L181) |
-| 15 | `.tabs--contact-variants .tabs__tab` (mobile) | Contact tab item trên mobile | [_tabs-contact-variants.scss:11](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/tabs/_tabs-contact-variants.scss#L11) |
-| 16 | `.back-to-top .path2:before` | Back-to-top icon arrow path | [_back-to-top.scss:19](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/7-utilities/back-to-top/_back-to-top.scss#L19) |
+| 5 | `.hero-banner-with-tiles__content` | Hero banner tiles content | [_hero-banner-with-tiles.scss:90](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/hero-banner-with-tiles/_hero-banner-with-tiles.scss#L90) |
+| 6 | `.hero-banner-with-tiles__tiles-wrapper` | Tiles wrapper container | [_hero-banner-with-tiles.scss:180](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/hero-banner-with-tiles/_hero-banner-with-tiles.scss#L180) |
+| 7 | `.hero-banner-with-tiles .image` | Tile image | [_hero-banner-with-tiles.scss:315](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/hero-banner-with-tiles/_hero-banner-with-tiles.scss#L315) |
+| 8 | `.hero-banner-with-tiles__tile-content` | Tile content area | [_hero-banner-with-tiles.scss:333](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/hero-banner-with-tiles/_hero-banner-with-tiles.scss#L333) |
+| 9 | `.hero-banner-with-tiles__tile-link-wrapper` | Tile link wrapper | [_hero-banner-with-tiles.scss:380](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/hero-banner-with-tiles/_hero-banner-with-tiles.scss#L380) |
+| 10 | `.icon-tile__content:after` | Icon tile hover overlay | [_icon-tile.scss:88](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/icon-tile/_icon-tile.scss#L88) |
+| 11 | `.insight-results` | Category search results — `position: relative` | [_insight-results.scss:11](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/category-search/_insight-results.scss#L11) |
+| 12 | `.navigation--type-fund-page` arrow button | Fund page nav arrow | [_navigation-fund-page.scss:97](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/navigation/_navigation-fund-page.scss#L97) |
+| 13 | `.navigation--type-fund-page` arrow `span` | Fund page nav arrow icon | [_navigation-fund-page.scss:104](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/navigation/_navigation-fund-page.scss#L104) |
+| 14 | `.relatedcontent .relatedcontent__heading-container` | Related content heading | [_related-content.scss:357](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/related-content/_related-content.scss#L357) |
+| 15 | `.search-results__item--image-thumbnail .search-results__link` | Search result item link overlay | [_search-results-items.scss:122](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/search-results/_search-results-items.scss#L122) |
+| 16 | `.slider-images:before` | Slider images gradient overlay — `position: absolute` | [_slider-images.scss:25](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/slider/_slider-images.scss#L25) |
+| 17 | `.fcc-dropdown__content` | Fund charge calculator dropdown content — `position: relative` | [_dropdown.scss:12](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/fund-charge-calculator/components/_dropdown.scss#L12) |
+| 18 | `.fcc-input__label` (focus state) | Fund charge calculator input label | [_input.scss:83](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/fund-charge-calculator/components/_input.scss#L83), [:98](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/fund-charge-calculator/components/_input.scss#L98) |
+| 19 | `.fcc-results-table` scroll indicator | Fund charge calculator results table gradient | [_results-table.scss:24](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/fund-charge-calculator/components/_results-table.scss#L24) |
+| 20 | `.table tbody td` (sticky first column) | Table fixed first column cells | [_table-fixed-first-column.scss:11](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/table/_table-fixed-first-column.scss#L11) |
+| 21 | `.table__scroll-wrapper` (sticky footer) | Table scroll wrapper bottom | [_table-base.scss:85](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/table/_table-base.scss#L85) |
+| 22 | `.advance-table thead tr:not(:first-child) th` | Advance table header rows (non-first) | [_advance-fixed-first-row-column.scss:21](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/table/advance-table/_advance-fixed-first-row-column.scss#L21) |
+| 23 | `.tabs:not(.tabs--issue) .tabs__arrow` | Tab navigation arrows (non-issue variant) | [_tabs.scss:62](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/tabs/_tabs.scss#L62) |
+| 24 | `.tabs--issue .tablist__dropdown-trigger` | Issue tabs dropdown trigger | [_tabs-issue-variants.scss:218](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/tabs/_tabs-issue-variants.scss#L218) |
+| 25 | `.tabs--issue .tablist__wrapper` (sticky state) | Tabs issue sticky wrapper | [_tabs-issue-variants.scss:230](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/tabs/_tabs-issue-variants.scss#L230) |
+| 26 | `.tablist` (tabs) | Tab list container | [_tabs.scss:181](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/tabs/_tabs.scss#L181) |
+| 27 | `.tabs--contact-variants .tabs__tab` (mobile) | Contact tab item trên mobile | [_tabs-contact-variants.scss:11](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/tabs/_tabs-contact-variants.scss#L11) |
+| 28 | `.back-to-top .path2:before` | Back-to-top icon arrow path | [_back-to-top.scss:19](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/7-utilities/back-to-top/_back-to-top.scss#L19) |
 
 ---
 
@@ -239,6 +262,14 @@
 | 19 | `.header-dropdown__content-item` (mobile `breakpoint-down(md)`) | Header dropdown content trên mobile | [_top-header-dropdown.scss:126](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/mega-menu/top-header/_top-header-dropdown.scss#L126) |
 | 20 | `.z-1` (utility class) | Utility class cho z-index = 1 | [_z-index.scss:4](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/7-utilities/helper-classes/_z-index.scss#L4) |
 | 21 | `.image--background` (helper class) | Background image positioning | [_helper.scss:108](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/7-utilities/helper-classes/_helper.scss#L108) |
+| 22 | `.insight-results:not(.first-batch-load)` | Category search loading overlay — `position: absolute; inset: 0` | [_insight-results.scss:57](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/category-search/_insight-results.scss#L57) |
+| 23 | `.fcc-dropdown__list` | Fund charge calculator dropdown list — `position: absolute` | [_dropdown.scss:29](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/fund-charge-calculator/components/_dropdown.scss#L29) |
+| 24 | `.fcc-input__prefix-element` | Fund charge calculator input prefix — `position: absolute` | [_input.scss:54](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/fund-charge-calculator/components/_input.scss#L54) |
+| 25 | `.fcc-steps__step` | Fund charge calculator step item — `position: relative` | [_steps.scss:53](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/fund-charge-calculator/components/_steps.scss#L53) |
+| 26 | `.funds-file-listing .search-results__loading` | Funds file listing loading overlay — `position: absolute` | [_funds-file-listing.scss:179](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/funds-file-listing/_funds-file-listing.scss#L179) |
+| 27 | `.in-page-nav-list-wrapper--left` (not sticky, 2 breakpoints) | In-page nav left list wrapper | [_in-page-navigation-left.scss:279](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/in-page-navigation/_in-page-navigation-left.scss#L279), [:352](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/in-page-navigation/_in-page-navigation-left.scss#L352) |
+| 28 | `.slider-ampersand__container` | Slider ampersand content container — `position: relative` | [_slider-ampersand.scss:149](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/slider/_slider-ampersand.scss#L149) |
+| 29 | `.slider__button .icomoon` (theme style) | Slider button icon above pseudo | [_slider-theme-style.scss:66](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/slider/_slider-theme-style.scss#L66) |
 
 ---
 
@@ -255,6 +286,10 @@
 | 7 | `.strategy-hero .image` | Strategy hero image | [_strategy-hero.scss:40](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/strategy-hero/_strategy-hero.scss#L40) |
 | 8 | `.in-page-navigation .has-bg` | In-page navigation background | [_in-page-navigation.scss:8](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/in-page-navigation/_in-page-navigation.scss#L8), [:35](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/in-page-navigation/_in-page-navigation.scss#L35) |
 | 9 | `.in-page-navigation--top .in-page-nav__navigation-controls__button` | In-page nav control button | [_in-page-navigation-top.scss:182](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/in-page-navigation/_in-page-navigation-top.scss#L182) |
+| 10 | `.herobanner-video .hero-banner__video-container` | Video hero banner background — `position: absolute` | [_hero-banner-video.scss:55](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/hero-banner/_hero-banner-video.scss#L55) |
+| 11 | `.herobanner .image` (via `full-width-background` mixin) | Hero banner full-width image background | [_hero-banner.scss:295](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/hero-banner/_hero-banner.scss#L295) |
+| 12 | `.fcc-steps:before` | Fund charge calculator steps dashed line — `position: absolute` | [_steps.scss:41](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/fund-charge-calculator/components/_steps.scss#L41) |
+| 13 | `.slider__button:before/:after` (theme style) | Slider button pseudo elements | [_slider-theme-style.scss:62](file:///Users/tri.nguyen/Project/aemaacs-investments-BE/aemaacs-investments/mandg-investments/ui.frontend/src/main/webpack/scss/base/6-components/slider/_slider-theme-style.scss#L62) |
 
 ---
 
@@ -319,7 +354,7 @@ graph TD
     F["🟠 600 — ui-header<br/>Marketing label"]
     G["🟠 500 — ui-sidebar<br/>Article header inner,<br/>Social share wrapper"]
     H["🟡 400 — ui-overlay-backdrop<br/>Breadcrumb"]
-    I["🟢 300 — ui-fixed<br/>Social share inner"]
+    I["🟢 300 — ui-fixed<br/>Social share inner,<br/>In-page nav sticky"]
     J["🟢 250 — ui-floating<br/>Filter dropdown list"]
     K["🟢 200 — ui-sticky<br/>Sticky container, Progress bar,<br/>Print button"]
     L["🔵 100 — ui-dropdown<br/>Header attestation, Dropdown panel,<br/>Suggestions, Social pinned"]
